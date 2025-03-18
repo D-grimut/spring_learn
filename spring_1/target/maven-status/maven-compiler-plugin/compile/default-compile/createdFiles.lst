@@ -1,0 +1,5 @@
+config/ProjectConfig.class
+spring_learn/Main.class
+config/StereotypeProjectConfig.class
+spring_learn/Parrot.class
+spring_learn/ParrotStereotype.class

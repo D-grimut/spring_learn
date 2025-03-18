@@ -6,6 +6,9 @@ import org.springframework.context.annotation.Primary;
 
 import spring_learn.Parrot;
 
+// @Bean = manualy constructing an object for Spring to manage
+// @Component = dynamic way of defining an object for Spring to track in its context and manage
+
 // Configuration class is a special type of class that instructs Spring on different actions (more on this later)
 @Configuration
 public class ProjectConfig{
