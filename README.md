@@ -1,2 +1,2 @@
-# spring_learn
-repo to document myself learning spring for a personal project
+# Spring Has Come
+This repo is to document myself learning major components of Spring for a personal project - some commits are a mess 😬
