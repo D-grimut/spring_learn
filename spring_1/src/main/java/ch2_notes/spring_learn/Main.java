@@ -1,11 +1,11 @@
-package spring_learn;
+package ch2_notes.spring_learn;
 
 import java.util.function.Supplier;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import config.ProjectConfig;
-import config.StereotypeProjectConfig;
+import ch2_notes.config.ProjectConfig;
+import ch2_notes.config.StereotypeProjectConfig;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,10 +1,10 @@
-package config;
+package ch2_notes.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 
-import spring_learn.Parrot;
+import ch2_notes.spring_learn.Parrot;
 
 // @Bean = manualy constructing an object for Spring to manage
 // @Component = dynamic way of defining an object for Spring to track in its context and manage

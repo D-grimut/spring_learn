@@ -1,4 +1,4 @@
-package spring_learn;
+package ch2_notes.spring_learn;
 
 public class Parrot {
 
