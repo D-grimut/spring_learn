@@ -14,6 +14,15 @@ public class Main {
         // The Parrot() constructor is called only once, when the config loads and we create all the beans, and thats it!
         System.out.println("[parrot() method called] the parrot that is owned by person bean is " + pNoArgs.getParrot()); 
         System.out.println("[Parrot passed as argument in config] the parrot that is owned by person bean is " + pArgs.getParrot());
+
+        System.out.println("------------------ Autowire Constructor param ------------------");
+
+        PersonAutowire pw = context.getBean(PersonAutowire.class);
+        ParrotAutowire ppw = context.getBean(ParrotAutowire.class);
+
+        System.out.println("the parrot name is " + ppw.getName());
+        // The Parrot() constructor is called only once, when the config loads and we create all the beans, and thats it!
+        System.out.println("[Autowired] the parrot that is owned by person bean is " + pw.getParrot()); 
         context.close();
     }
 }

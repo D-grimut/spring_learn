@@ -1,12 +1,14 @@
 package ch3_notes.config;
 
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 import ch3_notes.classes.Parrot;
 import ch3_notes.classes.Person;
 
 @Configuration
+@ComponentScan(basePackages = "ch3_notes.classes")
 public class ContextConfig {
     
     @Bean
