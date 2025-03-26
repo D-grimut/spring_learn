@@ -1,10 +1,10 @@
 package ch4_notes.repos;
 
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
 import ch4_notes.model.Comment;
 
-@Component
+@Repository
 public class DBCommentRepo implements ICommentRepo {
 
     @Override
