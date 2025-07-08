@@ -21,6 +21,7 @@ public class ProjectConfig {
      * be careful that some configs are interdependant -> when you overwrite one, you may need to overwrite another.
      * this is the case with UserDetailsService and PasswordEncoder
     */
+    // HttpSecurity = HTTP requests that pass through our app -> we are specifying what filtering to do on each HTTP request recieved.
     SecurityFilterChain configure(HttpSecurity http) throws Exception {
 
         /*
